@@ -17,7 +17,7 @@ transNameDist <- function(x,y){
     x <<- data.frame(a = a, b = b)
     
 } 
-transNameDist(x = "umair", y = "obaid")
+transNameDist(x = "limpbizkit", y = "obaid")
 
 #function to calculate euclidian distance
 euclidDist <- function(x,y){
