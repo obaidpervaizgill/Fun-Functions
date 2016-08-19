@@ -1,5 +1,5 @@
-inputString = "aaabbbccdddwwxxyyaa"
-outputSting = "a5b3c2d3w2x2y2"
+inputString = "reneessomba"
+outputSting = "r1e3n1s2o1m1b1a1"
 
 def stringCount (string):
     key = [i[0] for i in map(lambda x : x.split(),inputString)]
