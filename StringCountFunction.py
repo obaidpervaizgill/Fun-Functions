@@ -2,7 +2,7 @@ inputString = "aaabbbccdddwwxxyyaa"
 outputSting = "a5b3c2d3w2x2y2"
 
 def stringCount (string):
-    key = [i[0] for i in map(lambda x : x.split(),v)]
+    key = [i[0] for i in map(lambda x : x.split(),inputString)]
     
     dedupe_key = []           
     for i in range(len(key)):
