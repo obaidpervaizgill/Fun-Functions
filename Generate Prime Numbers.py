@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 30 21:48:25 2017
-
-@author: z3470247
-"""
 
 def primeNumbers (start, end):   
     num = range(start,end+1)
