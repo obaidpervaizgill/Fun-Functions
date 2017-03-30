@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 30 23:27:19 2017
-
-@author: z3470247
-"""
 
 def fabonacciSeries (length):
     count = 0
