@@ -8,7 +8,7 @@ def quickSort(externalListObject):
     sortedList = []
     
     while len(internalListObject) > i:
-        sortedList = sortedList + [min(internalListObject)]
+        sortedList = sortedList + filter(lambda x: x == min(internalListObject), internalListObject)
         internalListObject = filter(lambda x: x > min(internalListObject), internalListObject)
     print(sortedList)
         
