@@ -1,16 +1,18 @@
 #a very very very simple sorting algorithm
-integer = [2,5,4,1]
-
-def quickSort(externalListObject): 
+import sys
+n = int(raw_input().strip())
+unsorted = []
+sortedList = []
+unsorted_i = 0
+for unsorted_i in xrange(n):
+    unsorted_t = int(raw_input().strip())
+    unsorted.append(unsorted_t)
+i = 0    
+while len(unsorted) > i:
+    sortedList = sortedList + filter(lambda x: x == min(unsorted), unsorted)
+    unsorted = filter(lambda x: x > min(unsorted), unsorted)
     
-    i = 0
-    internalListObject = externalListObject
-    sortedList = []
     
-    while len(internalListObject) > i:
-        sortedList = sortedList + filter(lambda x: x == min(internalListObject), internalListObject)
-        internalListObject = filter(lambda x: x > min(internalListObject), internalListObject)
-    print(sortedList)
-        
-if __name__ == '__main__':
-    quickSort(integer)
+    
+for i in sortedList:
+    print i
