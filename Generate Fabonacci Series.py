@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-def fabonacciSeries (length):
+def fibonacciSeries (length):
     count = 0
     List = [0,1]
     while (count < length):
